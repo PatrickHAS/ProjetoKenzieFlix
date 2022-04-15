@@ -1,0 +1,91 @@
+
+
+body {
+    background-color:black ;
+    font-family:IBM Plex Sans;
+}
+
+.logo {
+    margin: 80px;
+    width: 300px;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin: 80px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    margin: 60px;
+    
+}
+
+
+
+.imgPerfil:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+    
+    
+}
+
+.zoom {
+    border: solid transparent 1px;
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    
+    
+}
+
+.zoom:hover{
+    border: solid white 1px;
+
+}
+
+li a {
+    text-decoration: none;
+    color: #adb5bd;
+}
+
+li a:hover {
+    color: white;
+    
+    
+}
+
+li {
+    
+    margin: -25px;
+}
+
+.btn {
+    display: inline-block;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    width: 170px;
+    background-color: black;
+    border: solid white 1px;
+    color: white;
+    font-family:IBM Plex Sans;
+    margin: 120px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
